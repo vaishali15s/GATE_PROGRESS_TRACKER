@@ -87,3 +87,28 @@ Feel free to fork this repository and submit pull requests for any improvements 
 This project is open source and available under the MIT License.
 
 **Author:** Vaishali Sharma
+
+## Live demo
+
+I plan to host a live demo of this Streamlit app so others can try it without cloning the repo. To view the demo once deployed visit the Streamlit share URL (will be added here after deployment).
+
+## Quick deploy to Streamlit Community Cloud
+
+1. Push the project to a public GitHub repository (already done for this repo).
+2. Sign in at https://share.streamlit.io with your GitHub account.
+3. Click "New app", choose this repository and the `main` branch, and set the main file path to `app.py`.
+4. Click "Deploy". Streamlit will install dependencies from `requirements.txt` and launch the app. The site will provide a persistent public URL you can share on LinkedIn.
+
+Notes:
+- Keep `gate_progress.csv` in `.gitignore` to avoid publishing personal study data. The deployed app will create/receive CSV at runtime on the Streamlit instance.
+- If you prefer a different host (Railway, Render, Vercel), I can provide step-by-step instructions.
+
+## Suggested LinkedIn post
+
+Use this copy when you share the project on LinkedIn (replace links):
+
+"Excited to share my GATE Progress Tracker — a Streamlit app to log daily practice, track PYQs and study hours, and visualize progress. Try the live demo: <LIVE_DEMO_URL> or view the code on GitHub: https://github.com/vaishali15s/GATE_PROGRESS_TRACKER. Feedback and contributions welcome!"
+
+Tips:
+- Add a screenshot of the app (attach as image in the post) for more engagement.
+- Pin the GitHub repo link in the first comment or in the post body.
