@@ -1,3 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Data
+gate_progress.csv
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyd
+*.pyo
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
