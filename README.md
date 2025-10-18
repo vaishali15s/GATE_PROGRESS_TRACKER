@@ -90,7 +90,9 @@ This project is open source and available under the MIT License.
 
 ## Live demo
 
-I plan to host a live demo of this Streamlit app so others can try it without cloning the repo. To view the demo once deployed visit the Streamlit share URL (will be added here after deployment).
+Try the live demo here:
+
+https://gate-progress-tracker.streamlit.app/
 
 ## Quick deploy to Streamlit Community Cloud
 
